@@ -8,6 +8,7 @@ import Homeabout from './lib/homeabout'
 import Skills from './lib/skills'
 import Services from './lib/services'
 import Homecontact from './lib/homecontact'
+import Form from './lib/Form'
 
 
 export default function App() {
@@ -32,8 +33,8 @@ export default function App() {
           <Route path="/products/:id">
             
           </Route>
-          <Route path="/products">
-            
+          <Route path="/form">
+            <Form/>
           </Route>
         </Switch>
       </BrowserRouter>
