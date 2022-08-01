@@ -9,6 +9,7 @@ import Skills from './lib/skills'
 import Services from './lib/services'
 import Homecontact from './lib/homecontact'
 import Form from './lib/Form'
+import Login from './lib/login'
 
 
 export default function App() {
@@ -35,6 +36,9 @@ export default function App() {
           </Route>
           <Route path="/form">
             <Form/>
+          </Route>
+          <Route path="/login">
+            <Login/>
           </Route>
         </Switch>
       </BrowserRouter>
