@@ -108,6 +108,42 @@
    margin-top: 5%;
    border: 2px rgb(191, 187, 213) solid;
  }
+ #login-id{
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-width: 350px;
+  min-width: 300px;
+  box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.2);
+}
+.input-login{
+  padding: 10px;
+ width: 90%;
+ margin-top: 5%;
+ border: 2px rgb(191, 187, 213) solid;
+}
+
+
+ #login-id .btn{
+  margin-top: 10px;
+  width: 80%;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 400;
+  background: #0044ff;
+  color: #fff;
+  cursor: pointer;
+  border: 0px solid transparent;
+  transition: all 0.4s ease;
+}
+#login-id .btn:hover{
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}
    .nav-bar #form-contact{
        transform:translatex(0px) translatey(-23px);
       }
