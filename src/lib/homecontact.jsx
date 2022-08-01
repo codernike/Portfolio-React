@@ -10,7 +10,7 @@ export default function homecontact() {
            <div class="topic">Have Any Project?</div>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
            <div class="button">
-             <button>Let's Chat</button>
+             <button> <a href='/projectdetail'>Let's Chat</a></button>
            </div>
          </div>
        </div>

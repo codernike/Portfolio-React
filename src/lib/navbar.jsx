@@ -1,6 +1,8 @@
 import React from 'react'
 export default function navbar() {
+ function shownav(){
  
+ }
  
   return (
    <>
@@ -17,8 +19,8 @@ export default function navbar() {
             <li class="nav-li"> <a href="/">Home</a> </li>
             <li class="nav-li"> <a href="/about">About Us</a> </li>
             <li class="nav-li"> <a href="/github">Github</a> </li>
-            <li class="nav-li" onclick="shownav()" id="drop-nav" >More</li>
-                <div class="drop-down" id="dropdown" style={{display:'none'}}>
+            <li class="nav-li" onclick={shownav()} id="drop-nav" >More</li>
+                <div class="drop-down" id="dropdown"  style={{display:'none'}}>
                  <li class="drop-li"> <a href="/form"></a> Form</li>
                  <li class="drop-li"> <a href="/login">Login</a> </li>
                 </div> 

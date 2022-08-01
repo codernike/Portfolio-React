@@ -10,6 +10,7 @@ import Services from './lib/services'
 import Homecontact from './lib/homecontact'
 import Form from './lib/Form'
 import Login from './lib/login'
+import Projectdetail from './lib/projectdetail'
 
 
 export default function App() {
@@ -39,6 +40,9 @@ export default function App() {
           </Route>
           <Route path="/login">
             <Login/>
+          </Route>
+          <Route path="/projectdetail">
+            <Projectdetail/>
           </Route>
         </Switch>
       </BrowserRouter>
