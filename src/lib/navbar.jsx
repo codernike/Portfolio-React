@@ -33,11 +33,11 @@ if(menubar==='none'){
         <div id="nav-form">
         <ul class="nav-ul" id="nav-ul">
             <li class="nav-li"> <a href="/">Home</a> </li>
-            <li class="nav-li"> <a href="/about">About Us</a> </li>
+            <li class="nav-li"> <a href="/about">About me</a> </li>
             <li class="nav-li"> <a href="/github">Github</a> </li>
             <li class="nav-li" id="drop-nav" onClick={handleClick} >More</li>
                 <div class="drop-down" id="dropdown"  style={{display:'none'}}>
-                 <li class="drop-li"> <a href="/form"></a> Form</li>
+                 <li class="drop-li"> <a href="/form">Form</a> </li>
                  <li class="drop-li"> <a href="/login">Login</a> </li>
                 </div> 
         </ul>
