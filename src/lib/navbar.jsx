@@ -6,6 +6,7 @@ const Navbar = () => {
     const display= document.getElementById('dropdown').style.display;
    if(display==='none'){
     document.getElementById('dropdown').style.display='flex';
+    document.getElementById('dropdown').style.flex='row';
         } else {
             document.getElementById('dropdown').style.display='none';
         }
@@ -35,7 +36,7 @@ if(menubar==='none'){
             <li class="nav-li"> <a href="/about">About Us</a> </li>
             <li class="nav-li"> <a href="/github">Github</a> </li>
             <li class="nav-li" id="drop-nav" onClick={handleClick} >More</li>
-                <div class="drop-down" id="dropdown"  style={{display:'{}'}}>
+                <div class="drop-down" id="dropdown"  style={{display:'none'}}>
                  <li class="drop-li"> <a href="/form"></a> Form</li>
                  <li class="drop-li"> <a href="/login">Login</a> </li>
                 </div> 
