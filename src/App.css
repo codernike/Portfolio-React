@@ -403,9 +403,8 @@ section .button button:hover{
   margin: auto;
 }
 
-/* Footer CSS */
 footer{
-  background: #4070f4;
+ 
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
