@@ -43,7 +43,7 @@ if(menubar==='none'){
         </ul>
         <div class="form-contact" id="form-contact">
             <button class="Login btn"> <a href="/">Projects</a> </button>
-            <button class="Signup btn"> <a href="/">Contact Me</a> </button>
+            <button class="Signup btn"> <a href="/form">Contact Me</a> </button>
         </div></div>
     </div>
    </navbar>
