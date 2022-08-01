@@ -30,9 +30,9 @@ export default function App() {
       <Homecontact/>
           </Route>
           <Route path="/about">
-           
+           <Homeabout/>
           </Route>
-          <Route path="/products/:id">
+          <Route path="/github">
             
           </Route>
           <Route path="/form">
@@ -44,6 +44,7 @@ export default function App() {
           <Route path="/projectdetail">
             <Projectdetail/>
           </Route>
+          
         </Switch>
       </BrowserRouter>
   </div>
