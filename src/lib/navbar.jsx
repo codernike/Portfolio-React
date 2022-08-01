@@ -1,13 +1,28 @@
 import React from 'react'
-export default function navbar() {
- function shownav(){
- 
- }
- 
+
+
+const Navbar = () => {
+  const handleClick =()=>{
+    const display= document.getElementById('dropdown').style.display;
+   if(display==='none'){
+    document.getElementById('dropdown').style.display='flex';
+        } else {
+            document.getElementById('dropdown').style.display='none';
+        }
+}
+function menubar(){
+const menubar =document.getElementById('nav-form').style.display;
+if(menubar==='none'){
+    document.getElementById('nav-form').style.display ='block';
+    document.getElementById('nav-ul').style.display='block';
+    document.getElementById('form-contact').style.display='block';
+} else{
+    document.getElementById('nav-form').style.display ='none';
+}}
   return (
    <>
-   <navbar class="nav-bar">
-    <svg viewBox="0 0 100 80" width="40" height="40" id="menu-btn" >
+   <navbar class="nav-bar"> 
+    <svg viewBox="0 0 100 80" width="40" height="40" onClick={menubar} id="menu-btn" >
             <rect width="100" height="20"></rect>
             <rect y="30" width="100" height="20"></rect>
             <rect y="60" width="100" height="20"></rect>
@@ -19,8 +34,8 @@ export default function navbar() {
             <li class="nav-li"> <a href="/">Home</a> </li>
             <li class="nav-li"> <a href="/about">About Us</a> </li>
             <li class="nav-li"> <a href="/github">Github</a> </li>
-            <li class="nav-li" onclick={shownav()} id="drop-nav" >More</li>
-                <div class="drop-down" id="dropdown"  style={{display:'none'}}>
+            <li class="nav-li" id="drop-nav" onClick={handleClick} >More</li>
+                <div class="drop-down" id="dropdown"  style={{display:'{}'}}>
                  <li class="drop-li"> <a href="/form"></a> Form</li>
                  <li class="drop-li"> <a href="/login">Login</a> </li>
                 </div> 
@@ -34,3 +49,4 @@ export default function navbar() {
    </>
   )
 }
+export default Navbar;
